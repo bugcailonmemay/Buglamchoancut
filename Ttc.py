@@ -31,7 +31,7 @@ def bes4(url):
 def checkver():
     url = 'https://webkeyduykhanh.blogspot.com/2025/02/thong-tin-phien-ban-cong-cu-body-font_31.html?m=1'
     version, maintenance = bes4(url)
-    if maintenance == 'off':
+    if maintenance == 'on':
         sys.exit()
     return version
 
